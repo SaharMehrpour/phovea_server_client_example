@@ -1,0 +1,31 @@
+{
+  "generator-phovea": {
+    "type": "app",
+    "app": "example",
+    "clientOnly": false,
+    "entries": {
+      "app": "./src/index.ts"
+    },
+    "libraries": [
+      "d3"
+    ],
+    "modules": [
+      "phovea_core",
+      "phovea_ui"
+    ],
+    "libraryAliases": {
+      "d3": "d3/d3"
+    },
+    "libraryExternals": [
+      "d3",
+      "jquery",
+      "font-awesome"
+    ],
+    "ignores": [],
+    "extensions": [],
+    "name": "client_app",
+    "author": "Sahar",
+    "today": "Tue, 18 Apr 2017 23:08:55 GMT",
+    "githubAccount": "saharmehrpour"
+  }
+}
